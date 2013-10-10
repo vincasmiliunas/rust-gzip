@@ -1,0 +1,5 @@
+rust-gzip configures zlib to compress and decompress data with the gzip header format.
+
+Usage example is available:
+
+	rust run example.rs "some text"
