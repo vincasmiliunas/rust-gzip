@@ -166,7 +166,7 @@ pub fn must_uncompress(input: &[u8]) -> ~[u8] {
 }
 
 pub fn uncompress(input: &[u8]) -> std::result::Result<~[u8], ReturnCode> {
-	unsafe { uncompress_config(input, 128*1024, 8) }
+	unsafe { uncompress_config(input, 128*1024, 2) }
 }
 
 #[fixed_stack_segment] #[inline(never)]
